@@ -1,0 +1,42 @@
+Definir los siguientes conceptos:
+
+1. Entorno de ejecución:
+
+El entorno de ejecución ejecuta estas funciones en lugar del programa e independientemente del sistema operativo. Entre ellas, se incluyen transferir datos a través de las redes y controlar los dispositivos de entrada y salida, así como leer, editar, buscar, organizar o administrar archivos.
+Un ejemplo de entorno es Node.js el cual hace estas funciones.
+Un entorno es como un emulador para ejecutar un lenguaje de programacion fuera de su plataforma nativa.
+
+2. Manejador de paquetes:
+
+Un gestor de paquetes mantiene un registro del software que está instalado en su ordenador, y le permite instalar software nuevo, actualizarlo a versiones más recientes, o eliminar software de una manera sencilla.
+Un ejemplo de gestor de paquetes es npm.
+
+3. Diferencia entre node y npm:
+node es un entorno de ejecucion, npm es un manejador de paquetes de JS para Node.js
+
+4. CLI, comando, dependencia, gestor de dependencia, dependencia de desarrollo y script:
+
+CLI: programa para escribir comandos especificos a la computadora para que realice tareas especificas - terminal/CLI/Bash/Command Line
+comando: orden o instruccion especifica a la pc
+gestor de dependencia: tareas de instalacion y actualizacion de librerias en proyectos Node.js
+dependencia de desarrollo: aquellos paquetes que necesitamos para trabajar en el proyecto de forma local (stack)
+dependencia: aquellos paquetes que necesitamos para que el proyecto funcione
+script: una secuencia de comandos
+
+5. Cliente y servidor:
+cliente: cualquiera que solicite informacion
+servidor: cualquiera que proporcione informacion
+
+6. API:
+conjunto de subrutinas, funciones y procedimientos de una biblioteca para ser utilizados en forma de abstraccion/caja negra de la cual podemos obtener informacion mediante su consumo, siempre y cuando se sigan las reglas de contrato.
+
+7. Módulo:
+una porción de un programa de ordenador. De las varias tareas que debe realizar un programa para cumplir con su función u objetivos, un módulo realizará, comúnmente, una de dichas tareas (o varias, en algún caso).
+
+8. Paquete:
+Un modulo en internet que se instala para resolver un problema especifico en los proyectos a realizar 
+
+
+npm init => inicializa el proyecto de npom y genera el package.json
+al instalar una dependencia (npm i colors) se genera la carpeta node_modules y package-lock.json
+npm run comando, excepto start que pueden usar solo npm start
